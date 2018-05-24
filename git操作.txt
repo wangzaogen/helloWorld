@@ -1,0 +1,20 @@
+github与本地仓库连接
+
+1.创建SSH KEY
+先看一下你C盘用户目录下有没有.ssh目录，有的话看下里面有没有id_rsa和id_rsa.pub这两个文件，没有的话执行下面的命令生成，然后一路回车。
+$ ssh-keygen -t rsa -C "youremail@example.com"
+
+2.登录Github,找到右上角的图标，打开点进里面的Settings，再选中里面的SSH and GPG KEYS，点击右上角的New SSH key，然后Title里面随便填，再把刚才id_rsa.pub里面的内容复制到Title下面的Key内容框里面。
+
+3.本地设置 邮箱和用户名
+git config --global user.email "gavin_wangzg.com"
+git config --global user.name "wangzaogen"
+
+4.将github上的仓库克隆到本地
+git clone https://github.com/wangzaogen/helloWorld.git
+
+5.在修改或增加文件后提交到github上
+git add .
+git commit -m '描述'
+git push -u origin master
+
