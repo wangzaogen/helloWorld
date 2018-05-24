@@ -18,3 +18,14 @@ git add .
 git commit -m '描述'
 git push -u origin master
 
+-----------------------
+其他的操作命令
+
+1.查找工作区内文件内容搜索
+git grep "helloWorld"
+
+2.查看提交日志（--stat 参数可以看到每次的文件更变统计）
+git log --stat
+
+3.查看修改后的文件与版本库中的文件差异
+git diff
