@@ -28,4 +28,9 @@ git grep "helloWorld"
 git log --stat
 
 3.查看修改后的文件与版本库中的文件差异
-git diff
+git diff (工作区和暂存区的比较)
+git diff --cached (暂存区和HEAD比较)
+git diff HEAD (工作区和HEAD比较)
+
+4.查看当前分支
+git branch
