@@ -34,3 +34,6 @@ git diff HEAD (工作区和HEAD比较)
 
 4.查看当前分支
 git branch
+
+5.拉取当前分支最新
+git pull
