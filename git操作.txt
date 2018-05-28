@@ -37,3 +37,6 @@ git branch
 
 5.拉取当前分支最新
 git pull
+
+6.合并到主干上
+git merge
