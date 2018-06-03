@@ -40,6 +40,7 @@ git branch
 4.3 git branch -r 查看远程分支
 4.4 git branch -m 'branchNewName' 重命名分支名
 4.5 git checkout branchName 切换到指定分支
+4.6 git checkout -b branchName 创建分支并切换到新的分支上--简化命令
 
 
 5.拉取当前分支最新
