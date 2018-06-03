@@ -34,9 +34,18 @@ git diff HEAD (工作区和HEAD比较)
 
 4.查看当前分支
 git branch
+扩展 git branch 'branchName' 创建新的分支
+
 
 5.拉取当前分支最新
 git pull
 
 6.合并到主干上
 git merge
+
+7.分支开发流程
+7.1 先git branch 'branchName' 创建新的分支
+7.2 在分支上开发完提交，commit ,push 到远端
+7.3 checkout到主干master分支上
+7.4 在通过git merge 分支名 合并到主干上
+7.5 master分支上commit push
